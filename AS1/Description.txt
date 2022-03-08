@@ -1,0 +1,16 @@
+Nicholas Ross - Ex1
+
+Resize algorithm computes the desired output size based on scaling factor
+for each pixel in new image find the closet pixel in the same relative position
+of original image.
+
+
+Functions:
+
+scale_image(img, scale)
+ img: PIL Image object
+ scale: scale to resize image e.g. 2 = half size, 0.5 Double size
+
+save_image(image, output_name)
+ image: PIL Image object
+ output_name: String containing file name e.g. resize_1
